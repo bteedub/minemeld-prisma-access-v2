@@ -1,15 +1,15 @@
 {
     "version": "0.0b-L-1",
-    "name": "minemeld-prisma-access-lab",
+    "name": "minemeld-prisma-access-v2",
     "author": "Palo Alto Networks",
-    "author_email": "devrel@paloaltonetworks.com",
-    "description": "MineMeld for Prisma Access lab API",
+    "author_email": "devrel@paloaltonetworks.com, wrightbt@gmail.com",
+    "description": "MineMeld for Prisma Access API v2",
     "entry_points": {
         "minemeld_nodes": {
-            "mmprismaaccesslab.Miner": "mmprismaaccesslab.node:Miner"
+            "mmprismaaccessv2.Miner": "mmprismaaccesslab.node:Miner"
         },
         "minemeld_prototypes": {
-            "mmprismaaccesslab.prototypes": "mmprismaaccesslab:prototypes"
+            "mmprismaaccessv2.prototypes": "mmprismaaccesslab:prototypes"
         }
     },
     "manifest_version": 0
