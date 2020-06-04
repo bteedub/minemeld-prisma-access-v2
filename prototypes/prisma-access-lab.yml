@@ -1,0 +1,29 @@
+description: >
+    Miners for Prisma Access Lab API
+url: https://docs.paloaltonetworks.com/prisma/prisma-access/prisma-access-panorama-admin/prisma-access-overview/retrieve-ip-addresses-for-prisma-access
+
+prototypes:
+    all_egress:
+        author: MineMeld Core Team - Modified by bwright
+        description: >
+            All Prisma Access egress IPs - Using api v2.
+        class: mmprismaaccesslab.Miner
+        development_status: EXPERIMENTAL
+        node_type: miner
+        tags:
+            - ShareLevelRed
+        indicator_types:
+            - any
+        config:
+            source_name: prismaaccesslab.egress_all
+            age_out:
+                sudden_death: true
+                default: null
+            attributes:
+                share_level: red
+                confidence: 100
+            params:
+                serviceType: "all"
+                addrType: "all"
+                location: "all"
+                api_key: "<INSERT-KEY-HERE>"
