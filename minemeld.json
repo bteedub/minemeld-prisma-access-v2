@@ -3,7 +3,7 @@
     "name": "minemeld-prisma-access-v2",
     "original-author": "Palo Alto Networks",
     "author_email": "devrel@paloaltonetworks.com",
-    "update_author_email": "wrightbt@gmail.com",
+    "author": "wrightbt@gmail.com",
     "description": "MineMeld for Prisma Access API v2",
     "entry_points": {
         "minemeld_nodes": {
