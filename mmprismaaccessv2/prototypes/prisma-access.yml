@@ -7,7 +7,7 @@ prototypes:
         author: MineMeld Core Team - Modified by bwright
         description: >
             All Prisma Access egress IPs - Using api v2.
-        class: mmprismaaccesslab.Miner
+        class: mmprismaaccessv2.Miner
         development_status: EXPERIMENTAL
         node_type: miner
         tags:
@@ -15,7 +15,7 @@ prototypes:
         indicator_types:
             - any
         config:
-            source_name: prismaaccesslab.egress_all
+            source_name: prismaaccessv2.egress_all
             age_out:
                 sudden_death: true
                 default: null
