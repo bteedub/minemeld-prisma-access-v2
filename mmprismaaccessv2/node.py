@@ -12,7 +12,7 @@ from minemeld.ft.utils import interval_in_sec
 LOG = logging.getLogger(__name__)
 
 
-PRISMA_ACCESS_API_QUERY = 'https://api.lab.gpcloudservice.com/getPrismaAccessIP/v2'
+PRISMA_ACCESS_API_QUERY = 'https://api.gpcloudservice.com/getPrismaAccessIP/v2'
 
 class Miner(BasePollerFT):
     def configure(self):
